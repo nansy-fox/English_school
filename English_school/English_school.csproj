@@ -128,6 +128,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\CreateService.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\OrderModal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -140,6 +144,9 @@
   <ItemGroup>
     <Compile Include="Pages\AdminPanel.xaml.cs">
       <DependentUpon>AdminPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreateService.xaml.cs">
+      <DependentUpon>CreateService.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\OrderModal.xaml.cs">
       <DependentUpon>OrderModal.xaml</DependentUpon>
